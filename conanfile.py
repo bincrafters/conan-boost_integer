@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostIntegerConan(ConanFile):
     name = "boost_integer"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-integer"
+    url = "https://github.com/bincrafters/conan-boost_integer"
 
     lib_short_names = ["integer"]
     is_header_only = True
