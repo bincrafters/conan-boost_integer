@@ -8,7 +8,8 @@ class BoostIntegerConan(ConanFile):
     name = "boost_integer"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_integer"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["integer"]
     is_header_only = True
 
