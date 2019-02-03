@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/stable")
 
 class BoostIntegerConan(base.BoostBaseConan):
     name = "boost_integer"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_integer"
     lib_short_names = ["integer"]
     header_only_libs = ["integer"]
